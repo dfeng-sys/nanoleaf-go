@@ -17,10 +17,11 @@ type GlobalOrientation MinMaxValue
 
 // PanelPositionData positionData as a go struct
 type PanelPositionData struct {
-	ID int `json:"panelId"`
-	X  int `json:"x"`
-	Y  int `json:"y"`
-	Z  int `json:"z"`
+	ID        int `json:"panelId"`
+	X         int `json:"x"`
+	Y         int `json:"y"`
+	Z         int `json:"z"`
+	ShapeType int `json:"shapeType"`
 }
 
 // PanelLayout panelLayout as a go struct
